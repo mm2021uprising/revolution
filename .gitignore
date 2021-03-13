@@ -351,5 +351,6 @@ hs_err_pid*
 # End of https://www.gitignore.io/api/linux,macos,android,windows,intellij,androidstudio
 
 #kotlin dsl
-buildSrc/build/
+buildSrc/build/**
+**/build
 buildSrc/.gradle/
